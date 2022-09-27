@@ -1,5 +1,4 @@
-﻿
-GameManager gm = new GameManager(player);
+﻿GameManager gm = new GameManager();
 
 gm.Start();
 while (gm.hasWon != true)
@@ -8,5 +7,3 @@ while (gm.hasWon != true)
 }
 
 Console.ReadLine();
-
-
